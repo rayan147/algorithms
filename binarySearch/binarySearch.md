@@ -18,9 +18,9 @@ startIndex will start at the index 0 and
 endIndex will be the last index 
 
 ```js
-const mySortedArray =[1,2,3,4,5,6,7,8,9,10]
+const mySortedArray =[2,5,8,12,16,23,38,56,72,91]
 ```
-in the beginging startIndex = 1 and endIndex =10
+in the beginging startIndex = 2 and endIndex =91
 ```js
    const binarySeach =(arr,target){
        let startIndex =0,
@@ -33,6 +33,19 @@ in the beginging startIndex = 1 and endIndex =10
 it really does not matter it is just preference. 
 ```js
    const binarySeach =(arr,target, startIndex =0,endIndex=arr.length -1){
+       return false 
+   }
+```
+###### Lets loop
+I am going to use a while loop ,but you coud you any loop or recursion if you look 
+it really does not matter it is just preference. 
+we are going to loop while the endIndex is greater or equal to the start 
+
+```js
+   const binarySeach =(arr,target, startIndex = 0,endIndex = arr.length -1){
+        while(startIndex <= endIndex){
+          
+        }
        return false 
    }
 ```
