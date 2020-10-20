@@ -12,7 +12,7 @@
  */
 
 const binarySeach=(arr,target, startIndex =0,endIndex=arr.length -1)=>{
-    if(target > arr.length){
+    if(target > arr.length || target < arr[0]){
         return 'Target no found'
     }
     let  middleIndex
