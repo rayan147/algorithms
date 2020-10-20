@@ -99,12 +99,10 @@ so in this case the startIndex would be index 8,middleIndex index 7 and endIndex
    }
 ```
 ###### Small improvements 
-let's declare the middle variable outside of the while loop ,so we dont have create a new variable everytime we loop . I'll other edge cases so we dont have to loop over the whole array if the number is larger array.length or less than arr[0].Please feel free to make any changes to improve it 😎
+let's declare the middle variable outside of the while loop ,so we dont have create a new variable everytime we loop . 😎
 ```js
    const binarySeach =(arr,target, startIndex = 0,endIndex = arr.length -1){
-        if(target > arr.length || target < arr[0]){
-        return 'Target no found'
-    }
+   
         let middleIndex
         while(startIndex <= endIndex){
         middleIndex = Math.floor((startIndex + endIndex) / 2 )

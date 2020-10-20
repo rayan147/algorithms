@@ -10,11 +10,9 @@
  * @DataStructure {Array}
  * @Class Search Algorithm
  */
-
+const mySortedArray =[2,5,8,12,16,23,38,56,72,91]
 const binarySeach=(arr,target, startIndex =0,endIndex=arr.length -1)=>{
-    if(target > arr.length || target < arr[0]){
-        return 'Target no found'
-    }
+  
     let  middleIndex
       while (startIndex <= endIndex) {
           middleIndex = Math.floor((startIndex + endIndex) / 2 )
@@ -29,3 +27,4 @@ const binarySeach=(arr,target, startIndex =0,endIndex=arr.length -1)=>{
     return false 
 }
                 
+binarySeach(mySortedArray,23)
