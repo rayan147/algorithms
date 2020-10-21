@@ -73,3 +73,29 @@ we are now swapping not matter what even if 0 is the first index we still swap s
       return arr
   }
 ```
+
+###### lets add a swap function to pretend I am smarter then what I am 🧐
+also let change to a for of just becuase 
+
+```js
+ const selectionSort=(arr)=>{
+const swap = (arr,firstIndex,secondIndex) => ([arr[firstIndex],arr[secondIndex]]= [arr[secondIndex],arr[ firstIndex]])
+    for(let i of arr.keys()){
+        let indexOfMin = i 
+        for(let j=i+1; j<arr.length;j++){
+            if (arr[indexOfMin] > arr[j]) {
+            indexOfMin = j;
+          }
+        }
+          if(i !== indexOfMin) swap(arr,i,indexOfMin)    
+          
+    }
+    return arr
+}
+```
+###### Invocation
+```js
+const my_unsortedArray = [4,52,5,2,67,45,12]
+const ss =selectionSort(my_unsortedArray);
+console.log(ss)
+```
