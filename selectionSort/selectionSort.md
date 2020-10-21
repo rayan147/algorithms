@@ -15,7 +15,6 @@ and return a sorted array .
   }
 ```
 ###### Lets loop thru the array 
-since we need to comapare the minimun let store in a variable.
 this first loop is going to store the index of indexOfMin element
 
 ```js
