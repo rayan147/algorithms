@@ -4,7 +4,7 @@
 
 
 ![Selection Sort](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
-
+[link to Youtube!](https://www.youtube.com/watch?v=Ns4TPTC8whw&ab_channel=AlgoRythmics)
 ###### Lets declare a function 
 we are declaring a function that takes in an unsorted array as a param
 and return a sorted array .
