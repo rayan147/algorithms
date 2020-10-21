@@ -4,3 +4,12 @@
 
 
 ![Selection Sort](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
+
+###### Lets declare a function 
+we are declaring a function that takes in an unsorted array as a param
+and return a sorted array 
+```js
+  const selectionSort=(arr)=>{
+      return arr
+  }
+```
